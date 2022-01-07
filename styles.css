@@ -165,23 +165,26 @@ p {
     .contents button {
         align-self: start;
         color: hsl(257, 40%, 49%);
+        cursor: pointer;
     }
 
     .contents button:hover {
         color: white;
         background-color: hsl(300, 69%, 71%);
-        cursor: pointer;
     }
 
     .icon {
         transform: translateY(100px);
         align-self: flex-end;
     }
+    
+        .twitter, .instagram, .fb {
+            cursor: pointer; 
+    }
 
     .twitter:hover, .instagram:hover, .fb:hover {
         filter: invert(92%) sepia() saturate(1000%) hue-rotate(
         232deg) contrast(1);
-        cursor: pointer;
     }
 
     .attribution {
