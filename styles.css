@@ -170,6 +170,7 @@ p {
     .contents button:hover {
         color: white;
         background-color: hsl(300, 69%, 71%);
+        cursor: pointer;
     }
 
     .icon {
@@ -180,6 +181,7 @@ p {
     .twitter:hover, .instagram:hover, .fb:hover {
         filter: invert(92%) sepia() saturate(1000%) hue-rotate(
         232deg) contrast(1);
+        cursor: pointer;
     }
 
     .attribution {
